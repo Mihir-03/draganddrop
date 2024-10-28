@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recycling Sort Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Recycling Sort Game</h1>
+        <div id="timer">Time: 60</div>
+        <div id="level">Level: 1</div>
+
+        <div class="bins">
+            <div class="bin" id="paper-bin">Paper</div>
+            <div class="bin" id="plastic-bin">Plastic</div>
+            <div class="bin" id="glass-bin">Glass</div>
+            <div class="bin" id="metal-bin">Metal</div>
+        </div>
+
+        <div class="items">
+            <div class="item" draggable="true" id="item1" data-type="paper">Newspaper</div>
+            <div class="item" draggable="true" id="item2" data-type="plastic">Plastic Bottle</div>
+            <div class="item" draggable="true" id="item3" data-type="glass">Glass Jar</div>
+            <div class="item" draggable="true" id="item4" data-type="metal">Aluminum Can</div>
+        </div>
+
+        <button id="start-btn">Start Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

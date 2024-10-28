@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.game-container {
+    margin-top: 50px;
+}
+
+#timer, #level {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.bins {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.bin {
+    width: 150px;
+    height: 200px;
+    margin: 0 10px;
+    border: 2px solid #333;
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.item {
+    width: 120px;
+    height: 40px;
+    margin: 0 10px;
+    border: 1px solid #333;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.item.dragging {
+    opacity: 0.5;
+}
